@@ -1,0 +1,11 @@
+spring:
+  main:
+    web-application-type: none
+tcp:
+  server:
+    port: 9876
+
+logging:
+  level:
+    reactor:
+      netty: debug
