@@ -1,4 +1,4 @@
-package com.example.demo;
+package org.github.chubbyhippo.demo;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.ApplicationRunner;
