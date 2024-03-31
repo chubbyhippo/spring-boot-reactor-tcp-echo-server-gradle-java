@@ -1,10 +1,10 @@
-package org.github.chubbyhippo.demo;
+package org.github.chubbyhippo.tcpserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class TcpServerApplicationTests {
 
 	@Test
 	void contextLoads() {

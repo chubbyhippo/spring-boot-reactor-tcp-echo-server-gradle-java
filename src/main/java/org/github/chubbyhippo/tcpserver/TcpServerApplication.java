@@ -1,4 +1,4 @@
-package org.github.chubbyhippo.demo;
+package org.github.chubbyhippo.tcpserver;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.ApplicationRunner;
@@ -8,10 +8,10 @@ import org.springframework.context.annotation.Bean;
 import reactor.netty.tcp.TcpServer;
 
 @SpringBootApplication
-public class DemoApplication {
+public class TcpServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(TcpServerApplication.class, args);
     }
 
     @Value("${tcp.server.port}")
