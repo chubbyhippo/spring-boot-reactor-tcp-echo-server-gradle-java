@@ -1,4 +1,4 @@
-package org.github.chubbyhippo.tcpserver;
+package io.github.chubbyhippo.tcpserver;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.ApplicationRunner;
